@@ -1,0 +1,4 @@
+<% publish_to "/comments/new" do %>
+  $("#status-comment<%= @status_comment.status_id %>").append("<%= j render(@status_comment) %>");
+  $("#form-status form textarea").val("");
+<% end %>
