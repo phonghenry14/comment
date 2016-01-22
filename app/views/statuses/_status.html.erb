@@ -10,7 +10,7 @@
     <% end %>
   </span></br>
   <span class="content">
-    <%= status.content %></br>
+    <%= best_in_place_if (current_user == status.user), status, :content, :ok_button => "ok", :ok_button_class => "btn btn-success ", :cancel_button => "X", :cancel_button_class => "btn btn-danger" %></br>
   </span></br>
   Comments:</br>
   <% @status_comments = status.status_comments %>

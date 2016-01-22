@@ -14,4 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require private_pub
+//= require jquery.purr
+//= require best_in_place
 //= require_tree .
+
+
+$(document).ready(function() {
+  jQuery(".best_in_place").best_in_place();
+});
