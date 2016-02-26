@@ -30,3 +30,8 @@
   </span>
 </li>
 </br>
+
+<script>
+  data = <%= raw User.pluck(:name).compact.to_json %>;
+  $('textarea').atwho({at:"@", 'data':data});
+</script>

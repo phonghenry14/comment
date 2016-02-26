@@ -16,6 +16,7 @@
 //= require private_pub
 //= require jquery.purr
 //= require best_in_place
+//= require jquery.atwho
 //= require_tree .
 
 
