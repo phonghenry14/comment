@@ -17,6 +17,7 @@ gem 'devise'
 gem "private_pub"
 gem "thin"
 gem "best_in_place"
+gem "jquery-atwho-rails"
 # Use jquery as the JavaScript library
 gem "jquery-rails"
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

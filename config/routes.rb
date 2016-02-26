@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   resources :statuses
   resources :status_comments
+  resources :users
 end
